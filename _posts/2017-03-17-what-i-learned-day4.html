@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "What I have learned after four days of pair programming"
+date:   2017-03-17 19:16:54 +0000
+categories: jekyll update
+---
+
+<h2>1: Doubles are not terrifying</h2>
+
+<p>I had been taught about mocks and doubles before in a lecture style format, and I had not understood much.
+ I didn’t understand the point, I didn’t understand what the object I was making really was, and I didn’t
+  understand why it made everything break when it worked fine before. When I hears the word double, I heard
+   it in my lecturer’s voice, and a Pavlovian sense of dread started to set in. All I had to do to relieve
+    this dread was just experiment with the idea myself a few times. Turns out it does exist for a reason,
+     and when used properly, makes the test cases I’m using much more fit for purpose.</p>
+
+<p>Also! I found out you can use doubles in irb using require 'rspec/mocks/standalone', which is super useful.</p>
+
+<img src = "{{site.baseurl}}/img/Tyson_Meowth_Double_Team.png" width = 500
+
+<h2>2: Experimenting is key</h2>
+
+<p>I find irb a little intimidating and I shouldn’t. The best way you can understand how your code works is to
+ play with it as much as possible in the terminal. There is no excuse for not testing or exploring an idea
+  just because it would be a hassle to run the program or write a class in irb. When I complete a project after
+   a tonne of experimenting is the time I learn the most.</p>
+
+<h2>3. Interfaces and private methods
+
+<p>This one is related to both best practice and actual instances of code. The instance in question was a
+ piece in our project walkthrough which encouraged us to make an attribute reader private. We were all
+  confused as to why this was, as our test cases made reference to the method created by this attribute reader.
+   The question in my mind was “why would I make this private when I need to refer to it elsewhere?”
+    After a workshop it became much clearer that I should not be using it elsewhere; instead I should be using
+     the interface I was designing.</p>
