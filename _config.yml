@@ -9,7 +9,7 @@
 title: Steph
 email: xxx@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about leatning to code and anything else that's important.
+  A blog about learning to code and anything else that's important.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: stephcrampin
