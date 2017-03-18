@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "What I have learned after two days of pair programming"
+date:   2017-03-15 19:16:54 +0000
+categories: jekyll update
+---
+
+<p>The below is going to be a racing recap of what I have learned after my first two days of full-time programming.</p>
+
+<h2>Splitting up code is valuable</h2>
+
+<p>When solving kata on codewars, I would frequently write enormous methods that did all sorts of things in order to get the right answer. This was good at getting me points, but not very readable or edit-friendly. We have been writing code that is intended to be used for a concrete purpose from day 1 at Makers, and today I learned the single responsibility principle. The idea is that every module or class should have responsibility over a single part of the functionality provided by the software. This ensures that edits made to these classes in the future will have a minimal impact on the rest of the software, and the code will be easily interpreted by a future programmer who wishes to read or edit your code.</p>
+
+<p>This idea is evidenced below with the principle applied to methods. Each method does one specific thing. If a complicated concept is involved, such as only being able to dock bikes if the docking station is below capacity, a separate method is employed to check capacity, which is then called by the dock method. This is simple and readable.</p>
+
+
+<h2>Always think of the user</h2>
+
+<p>All challenges delivered to us so far have been from the perspective of user requirements. If I am to make a bike docking station, the most important thing for me to bear in mind is who will be using it and why. A user will want to use a bike, and check that it is working. An engineer will need to know when the docking station has reached capacity, etc. Knowing who I am making this product for and what they want to get out of it is a huge part of understanding how to structure and plan the piece of software I am going to write in order to do the job correctly.</p>
+
+<h2>Difficult roads often lead to beautiful destinations</h2>
+
+<p>Courtesy of a fortune cookie I received today!</p>
+
+<img src = "{{site.baseurl}}/img/cookie.jpg" width = 500>
