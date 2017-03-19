@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Steph
-email: xxx@gmail.com
+title: Steph Island
+email: hello@steph-island.com
 description: > # this means to ignore newlines until "baseurl:"
   A blog about learning to code and anything else that's important.
 baseurl: "" # the subpath of your site, e.g. /blog
