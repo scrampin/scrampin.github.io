@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Day 5 of pair programming"
+date:   2017-03-20 19:16:54 +0000
+categories: jekyll update
+---
+
+<p>I learned a lot today. The day was quite fragmented: The first hour was spent chatting to the others about our weekend challenge. This was followed by a quick standup and a code review lasting just over an hour. We then had a group code review, after which we spent two hours refactoring test cases before meditation. After that we had a quick workshop on coding methodology before focussing on week 2’s challenge. In some ways these aren’t the optimal conditions for getting into flow, but on the other hand I came away feeling like I had picked up a smattering of new insights and techniques, as well as a strengthening of my existing knowledge</p>
+
+<h2>Best practices when writing test cases</h2>
+
+<p>I was only able to work on my weekend challenge for one day (which meant about 7 hours, in practice). This meant that I’d been able to write code to the extent that I was happy with it, and written unit tests with high coverage. Had I had extra time, I would have found it valuable to go over my test cases and ensure that they followed the best practices. This wasn’t an issue, because I spent a couple of hours in the morning refactoring them to a degree I was happy with.</p>
+
+<h2>Paying attention to little things is important</h2>
+
+<p>Little things like the usability of your terminal and understanding how to set up a project make a big difference. A user-friendly terminal is what makes the difference between being scared and being confident when you’re investigating bugs and exploring on the fly. It was worth taking 10 minutes to set up Oh My Zsh and iTerm for this reason. I also had some issues with rvm, which defaulted to an older version of ruby when I was setting up my project. It was basic stuff, but would have been really easy to ignore and power on through. Taking the time to google how to manage rvm’s defaults and subsequently how bundler works enabled me to set up my project in the way I wanted, whilst deepening my understanding of the mechanics that allow my code to run.</p>
+
+<h2>More object oriented</h2>
+
+<p>I learn more about object oriented every day. I had used a module to determine the weather that affected my airport in my weekend challenge. This made sense to me, as weather is something that acts on and affects things in the world, but does not really exist. Roi’s feedback to the group was that weather would have made sense as a class, as it could be instantiated and thus act on our airport objects. ‘Sure’, I thought. One of the longer term effects of this course is that I am getting a better understanding of how to intuit ideas and translate them into code; not just in terms of syntax, but in terms of how classes and modules that will make up the program will interact.</p>
+
+<p>One of the most concrete action points I can take away from this is to get on studying Practical Object Oriented Design in Ruby.</p>
+
+<h2>Maintaining control of attributes</h2>
+
+<p>A lot of us have had issues with when and how to make attribute readers and writers private. In practice this has manifested in specific questions: ‘Why should I make my attribute reader private when I need to use it in a test case?’ ‘How am I supposed to change attributes within a class without using an accessor or instance variables?’ I learned today that these questions often seem to have good answers. It’s worth investigating them using google and repl until you understand the reasons behind them, rather than defaulting to the easiest answer.</p>
+
+<h2>Other little things</h2>
+
+<p>I learned a bunch of other cool little things that I thought I’d make a list of:
+<ul><li>You can use alias_method to make an alias for a method!</li>
+<li>I should use more syntactic sugar. It’s elegant and makes for very readable test cases</li>
+<li>When I have written a piece of code I am happy with, it can most likely be made more elegant. I should think about this all the time</li></ul>
+
+In general I feel like I am picking up bits and pieces of syntax and understanding of object oriented on a gradual basis. This is fine with me, as this is how people learn. However it makes me aware if the need to back up the things I’ve learned with a deeper understanding of the theory. Playing with code and working on projects will get me only part of the way to being a good developer, so I think now is a good time to leave the blog and hit the books.</p>
