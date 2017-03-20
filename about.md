@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Steph and this is my blog.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm learning to be a software developer at Makers Academy, and this is where I'll be posting my thoughts on what I have learned and how I am feeling. I will try to write a post at least every other day.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I do other things as well as learning to code, so expect periodic updates on those. Topics that are important to me include running, effective altruism, and my thoughts on wellbeing.
