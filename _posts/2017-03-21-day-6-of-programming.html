@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Day 6 of pair programming"
+date:   2017-03-21 19:16:54 +0000
+categories: jekyll update
+---
+
+<p>A quick one today! There are two main things that I learned:</p>
+
+<h2>1: It is really easy to get ahead of yourself</h2>
+
+<p>As part of our task today, we were asked to write a class that adopted part of the functionality of one of the classes we had already made. ‘Oystercard’, which had up until that point been storing journey details, was partly outsourced to ‘Journey’. I read the instructions eagerly that told me to refactor the classes to reflect this new behaviour, thinking ‘how hard can it be to make a class and move some methods across?’ 15 minutes later, my partner and I were deep in a mental trace to keep track of the changes we had made, how they affected the original class, and why they were breaking everything. We got it working fine, but it served as a good reminder of why we are supposed to write our code in test-led increments. It was nevertheless a lot of fun to experiment with making a class and keep track of the work I was doing in my head for a few minutes!</p>
+
+<h2>2: There is much more to classes than meets the eye</h2>
+
+<p>I think I will continually be realising this for a while. The reason I say it today is because of the last element of the challenge we were guided to do. The idea of having a class for journeys, stations and oystercards had made sense to me, however this left the issue of where the journey data would be stored. Turns out, in another class! The class we made to log the journey was instantiated by the oystercard object, which in turn instantiated a journey and stored journeys that had been completed in an array. Once we made it and got our first passing test case, I felt like we had a program that did the same thing as 20 minutes ago, but which I understood far less well. After more experimentation, I understand the rationale behind this way of structuring a program better, and my intuition about what can and should be a class and why has been rewritten a little further.</p>
