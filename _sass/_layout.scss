@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    height: 100px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -32,6 +32,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        font-size: 20px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -170,6 +171,8 @@
 
 .page-heading {
     font-size: 30px;
+    color: #512566;
+
 }
 
 .post-list {
