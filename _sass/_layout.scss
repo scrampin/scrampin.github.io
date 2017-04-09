@@ -10,6 +10,13 @@
     position: relative;
 }
 
+.header-col-wrapper {
+    font-size: 15px;
+    color: #512566;
+    margin-right: 400px;
+    @extend %clearfix;
+}
+
 .site-title {
     font-size: 40px;
     font-weight: 300;
