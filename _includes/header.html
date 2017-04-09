@@ -4,19 +4,7 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <div class='header-col-wrapper'>
-      <ul class="social-media-list">
-        {% if site.github_username %}
-        <li>
-          {% include icon-github.html username=site.github_username %}
-        {% endif %}
 
-        {% if site.twitter_username %}
-          {% include icon-twitter.html username=site.twitter_username %}
-        </li>
-        {% endif %}
-      </ul>
-    </div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,6 +23,22 @@
         {% endfor %}
       </div>
     </nav>
+
+    <div align='left'>
+      <ul class="social-media-list">
+        {% if site.github_username %}
+        <li>
+          {% include icon-github.html username=site.github_username %}
+        </li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <li>
+          {% include icon-twitter.html username=site.twitter_username %}
+        </li>
+        {% endif %}
+      </ul>
+    </div>
 
   </div>
 
