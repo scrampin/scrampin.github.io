@@ -9,9 +9,8 @@
 title: Steph Island
 email: hello@steph-island.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about learning to code and anything else that's important.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://steph-island.co.uk" # the base hostname & protocol for your site
 twitter_username: stephcrampin
 github_username:  scrampin
 
