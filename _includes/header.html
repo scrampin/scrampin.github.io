@@ -4,6 +4,22 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+    <div class="footer-col footer-col-2">
+      <ul class="social-media-list">
+        {% if site.github_username %}
+        <li>
+          {% include icon-github.html username=site.github_username %}
+        </li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <li>
+          {% include icon-twitter.html username=site.twitter_username %}
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
